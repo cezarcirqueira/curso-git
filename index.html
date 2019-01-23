@@ -2,6 +2,20 @@
 	<head>
 		<title>Curso GIT - T&aacute; l&aacute;.</title>
 		<link rel="stylesheet" href="estilo.css"/>
+		<script type="text/javascript">
+
+			(function() {
+				var bdy = document.getElementsByTagName('body');
+				var bgColor = '#40abcf';
+				window.setInterval(function() {
+					for (var i = bdy.length - 1; i >= 0; i--) {
+						bdy[i].style.backgroundColor = bgColor;
+					}
+					bgColor = (bgColor === '#ff0000') ? '#40abcf' : '#ff0000';
+				}, 250);
+			})();
+
+		</script>
 	</head>
 	<body>
 		<h1>Projeto do C&eacute;zar A. Cirqueira</h1>
